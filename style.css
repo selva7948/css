@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    color:gray;
+    padding: 20px;
+    border-radius: 30px;
+}
+.per{
+    display: inline;
+    color: white;
+}
+ul{
+    margin-left: 60%;
+    display: inline;
+}
+li{
+    margin-left: 1px;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+li:hover{
+    color:black;
+background-color: white;
+  display: inline;
+  width: 50px;
+  cursor: pointer;
+}
+#bar{
+    text-align: center;
+}
+input{ 
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline;
+}
+input:hover{
+    background-color: rgba(128, 128, 128, 0.479);
+}
+#img{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.img1{
+height: 600px;
+width: 600px;
+background-color: rgba(0, 0, 0, 0);
+color: black;
+display:block;
+text-align: center;
+margin: 0%;
+align-items: center;
+padding-top: 30px;
+padding: 10px;
+border-radius: 30px;
+opacity: 50%;
+}
+.img1:hover{
+    background-color:black;
+    color: white;
+    opacity: 100%;
+
+}
+hr{
+    margin: 10px;
+}
+#para{
+    text-align: center;
+}
+#info{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+#num:hover,#mail:hover{
+    color: aqua;
+}
